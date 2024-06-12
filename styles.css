@@ -1,0 +1,59 @@
+.bg-primary {
+	background: #273553 !important;
+}
+
+nav .container img{
+    width: 50px;
+}
+
+.showcase img {
+	margin-bottom: -50px;
+}
+
+.p-6 {
+	padding: 40px;
+}
+
+.bg-light {
+	background: #c4c4c4 !important;
+	border: none;
+}
+
+::placeholder {
+	color: #4d4d4d;
+	font-weight: 300;
+}
+
+.bg-secondary {
+	background: #24235c !important;
+	border: none;
+}
+
+.row img{
+    height: 350px;
+}
+
+.btn-secondary {
+	background: #2f70e7;
+	border: none;
+}
+
+/* Resposive*/
+@media (max-width: 768px) {
+	.showcase {
+		text-align: center;
+		padding-top: 0 !important;
+	}
+
+	.showcase img {
+		margin-bottom: 30px !important;
+	}
+
+	.showcase .col-md-5 {
+		padding: 10px !important;
+	}
+
+	.showcase .col-md-5 .card {
+		margin-bottom: 40px;
+	}
+}
